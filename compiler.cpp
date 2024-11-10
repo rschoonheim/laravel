@@ -1,6 +1,15 @@
 #include <iostream>
+#include "compiler/compiler.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
+    std::string projectPath = "/programming/laravel-lang/project";
+
+    // Create instance of laravel_compiler
+    //
+    laravel_compiler compiler = laravel_compiler(projectPath);
+
+    //
+    //
+
 }
