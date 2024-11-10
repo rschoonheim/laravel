@@ -1,5 +1,6 @@
 {
   "applications": {
-    "App": "app/"
+    "App1": "app/",
+    "App2": "app2/"
   }
 }
