@@ -3,4 +3,4 @@ project(laravel_lang)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(laravel_lang main.cpp)
+add_executable(laravel_lang compiler/main.cpp)
