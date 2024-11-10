@@ -10,6 +10,10 @@ add_executable(
         compiler.cpp
         compiler/compiler.h
         compiler/compiler.cpp
+        compiler/lexer/lexer.h
+        compiler/lexer/lexer.cpp
+        compiler/preprocessor/preprocessor.h
+        compiler/preprocessor/preprocessor.cpp
 )
 
 target_link_libraries(compiler PRIVATE nlohmann_json::nlohmann_json)
